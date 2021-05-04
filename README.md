@@ -36,6 +36,10 @@ CSS vlastnost `transform` s hodnotami například:
 - `skew(deg)`
 - ...
 
+note:
+
+- https://css-tricks.com/almanac/properties/t/transform/
+
 ---
 
 # Transform - Příklad 1/2
@@ -54,7 +58,7 @@ CSS vlastnost `transform` s hodnotami například:
 
 note:
 
-- jendotka deg = úhel ve stupních
+- jendotka `deg` = úhel ve stupních
 - https://developer.mozilla.org/en-US/docs/Web/CSS/angle
 
 ---
@@ -160,7 +164,7 @@ div:hover {
 
 note:
 
-https://css-tricks.com/almanac/properties/t/transition-timing-function/
+- https://css-tricks.com/almanac/properties/t/transition-timing-function/
 
 ---
 
@@ -171,10 +175,10 @@ https://css-tricks.com/almanac/properties/t/transition-timing-function/
   - `animation-iteration-count` - počet opakování nebo `infinite`
   - `animation-direction` - `normal`, `reverse`, `alternate`
   - `animation-fill-mode` - `none`, `forwards`, `backwards`, ...
-  - `@keyframes nazev-animace`
-    - `from { vychozi stav }`
-    - `to { cilovy stav }`
-    - `X% { stav v daném procentu animace }`
+- Definice animace pomocí `@keyframes nazev-animace`:
+  - `from { vychozi stav }`
+  - `to { cilovy stav }`
+  - `X% { stav v daném procentu animace }`
 
 ---
 
@@ -205,5 +209,6 @@ https://css-tricks.com/almanac/properties/t/transition-timing-function/
 
 - Zadaný v classrooms
 - Ukážeme si co je třeba
+- https://classroom.github.com/a/MPjRuH0W
 
 ![Super appka](https://raw.githubusercontent.com/TvorimWeb-2018-Praha/projekt3-superappka/master/vysledek.png)
